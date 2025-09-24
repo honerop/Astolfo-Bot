@@ -12,3 +12,5 @@ serde = { version = "1.0", features = ["derive"] }
 serde-xml-rs = "0.6"
 quick-xml = {version = "0.31", features = ["serialize"]}
 regex = "1.11.1"
+sqlx = {version="0.8.6",features=["runtime-tokio","sqlite","macros"]}
+rand = "0.9.2"
